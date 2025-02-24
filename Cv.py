@@ -6,7 +6,11 @@ from bs4 import BeautifulSoup
 import groq
 import docx
 import PyPDF2
-GROQ_API_KEY = "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"
+from dotenv import load_dotenv
+
+load_dotenv()
+GROQ_API_KEY = os.getenv("GROQ_API_KEY") #keep ur api keys safe in an .env file 
+
 groq_client = groq.Client(api_key="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")
 
 
