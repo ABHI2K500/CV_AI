@@ -1,0 +1,6 @@
+PyMuPDF
+python-docx
+requests
+beautifulsoup4
+groq
+PyPDF2
