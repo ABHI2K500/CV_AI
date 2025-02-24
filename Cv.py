@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 import groq
 import docx
 import PyPDF2
-GROQ_API_KEY = "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"
-groq_client = groq.Client(api_key="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")
+GROQ_API_KEY = "Paste your Groq Api key here"
+groq_client = groq.Client(api_key=" "Paste your Groq Api key here"")
 
 
 def extract_text_from_cv(cv_path):
@@ -58,7 +58,7 @@ def get_job_description(job_url):
 
 import groq
 
-groq_client = groq.Client(api_key="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")
+groq_client = groq.Client(api_key=" "Paste your Groq Api key here"")
 
 def analyze_cv_vs_job(cv_text, job_desc):
     """Uses Groq AI to analyze the match between the CV and job description."""
